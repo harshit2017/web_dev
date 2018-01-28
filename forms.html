@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<textarea></textarea>
+		<label>
+			<strong>First Name:</strong>
+			<input type="text" placeholder="John">
+		</label>
+
+
+		<label>
+			<strong>Last Name:</strong>
+			<input type="text" placeholder="Smith">
+		</label>
+
+
+		<p>
+			
+			<label for="male"><strong>Male</strong></label>
+			<input id="male" type="radio" name="gender"  >
+
+			<label for="female"><strong>Female</strong></label>
+			<input id="female" type="radio" name="gender" required >
+
+			<label for="other"><strong>Other</strong></label>
+			<input id="other" type="radio" name="gender" required value="other" >
+
+
+		</p>
+
+		<p>
+			<label><strong>Birthday:</strong>
+				<select>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>March</option>
+				</select>
+
+
+				<select>
+					<option>mon</option>
+					<option>tues</option>
+					<option>wed</option>
+
+
+				</select>
+
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+
+			</label>
+
+
+
+		</p>
+
+
+
+
+		<p>
+			<label for="email"><strong>Email:</strong></label>
+			<input id="email" type="email"  placeholder="your email" required>
+
+			<label for="password"><strong>Password:</strong></label>
+			<input id="password" type="password"  placeholder="password"  pattern=".{4,15}" required title="password bw 2-3char" >
+		</p>	
+
+		<p>
+			<label>I agree with the terms and conditions.
+				<input type="checkbox" required>
+			</label>
+		</p>
+
+
+
+		<p>
+			<button>Submit</button>
+		</p>
+
+	</form>
+
+</body>
+</html>
