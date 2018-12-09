@@ -1,0 +1,45 @@
+/*style.css*/
+
+html,
+body {
+    background-color: blue;
+}
+
+#road {
+
+    position: relative;
+    top: 50%;
+    left: 0;
+    border-bottom: 50px dashed black;
+}
+
+#mario {
+    position: relative;
+    /*background-color: green;*/
+    top: 50%;
+    left: 0;
+    background-image: url("walkingMan.png");
+    width: 184px;
+    height: 325px;
+    animation: walk 1s steps(8) infinite,
+        move 10s infinite;
+
+
+}
+
+@keyframes walk {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: 1472px;
+    }
+}
+
+@keyframes move {
+    to {
+
+        left: 100%;
+    }
+}

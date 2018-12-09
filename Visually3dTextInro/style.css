@@ -1,0 +1,66 @@
+/*style.css*/
+
+html,
+body {
+    background: #000;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+/*attribute=value selector*/
+[data-animate="move in"] {
+    position: relative;
+    width: 100vw;
+    height: :100vh;
+    opacity: 1;
+    animation: moveIn 20s infinite ease-in-out;
+    text-align: center;
+    /*transform applies a 2-d or 3-d effect to an element*/
+    transform: rotate(20deg);
+}
+
+@keyframes moveIn {
+
+    /*0% is the beginning of animation*/
+    0% {
+        font-size: 1em;
+        left: 0;
+        opacity: 0;
+        text-shadow: none;
+        transform:
+    }
+
+    10% {
+        opacity: 1;
+
+        /*applies shadow to the text
+        in this case we are applying multiple text shadows to the text by using comma separated value*/
+
+        /*text-shadow: horiDistShadowFromText vertDistShadowFromText blurRadius color*/
+        text-shadow:
+            .2em -.2em 4px #aaa,
+            .4em -.4em 4px #777,
+            .6em -.6em 4px #444,
+            .8em -.8em 4px #111;
+    }
+
+    80% {
+        font-size: 8em;
+        left: -2em;
+        opacity: 1;
+    }
+
+    /*100% is the end of animation*/
+    100% {
+        font-size: 10em;
+        left: 10em;
+        opacity: 0;
+        text-shadow:
+            .02em -.02em 4px #aaa,
+            .04em -.04em 4px #777,
+            .06em -.06em 4px #444,
+            .08em -.08em 4px #111;
+        transform: rotate(-20deg);
+    }
+}

@@ -1,0 +1,37 @@
+Commands                 Action
+git init                 initialise local git repository
+git add <file>           add files to index
+git rm --cached <file>   remove file from index
+git status               check status of working tree
+git commit               commit changes in index
+git push                 push to remote repository
+git pull                 pull latest changes
+git clone                clone repository into a new directory
+git commit               commit changes
+git remote				 lists remote directories
+
+
+*Additional Commands
+git config --global user.name 'name' -> sets name
+git config --global user.email '123@me.com' -> sets email
+git commit -m 'commit message'
+
+*Addin files to remote repository
+git remote add origin <repo url>
+git push -u origin master
+
+*Vim
+press 'i' ->  move into insert mode
+press 'esc' -> exit from insert mode
+type ':wq' -> exit and saving changes  
+
+*Ignore files/directories
+1.touch .gitignore
+2.write name of file(/dirname) in .gitignore file
+3.save it 
+
+*Create Branches
+1.git branch <branchName> -> creates new branch
+2.git checkout <branchName> -> switch branches
+3.git merge <branchName> ->merges 2 branches
+
