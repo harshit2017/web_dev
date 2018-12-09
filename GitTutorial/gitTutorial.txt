@@ -16,7 +16,7 @@ git config --global user.name 'name' -> sets name
 git config --global user.email '123@me.com' -> sets email
 git commit -m 'commit message'
 
-*Addin files to remote repository
+*Adding files to remote repository
 git remote add origin <repo url>
 git push -u origin master
 
