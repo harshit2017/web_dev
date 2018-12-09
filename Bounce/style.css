@@ -6,7 +6,7 @@ body {
     position: relative;
     top: 40%;
     left: 0;
-    animation: move 35s infinite linear;
+    animation: move 1s infinite linear;
     animation-direction: alternate;
 
 

@@ -22,7 +22,8 @@ body {
     width: 184px;
     height: 325px;
     animation: walk 1s steps(8) infinite,
-        move 10s infinite;
+        move 5s infinite linear;
+    animation-direction: alternate;
 
 
 }
