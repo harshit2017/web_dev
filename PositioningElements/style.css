@@ -1,0 +1,33 @@
+/*style.css*/
+
+/*.box {
+    width: 400px;
+    height: 400px;
+    /*margin:auto;*/
+/*to center on page
+    background: red;
+    position:relative;
+    top:200px;*/
+/*}*/
+
+.wrap {
+    width: 800px;
+    height: 800px;
+    background: blue;
+    margin:auto;
+    position:relative;
+
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    /*to center on page*/
+    background: red;
+    position: absolute;
+    /*absolutely position this wrt nearest parent*/
+    /*in this case nearest position element is body element*/
+    top: 200px;
+    left:100px;
+}
