@@ -6,7 +6,7 @@
     /*margin:auto;*/
 /*to center on page
     background: red;
-    position:relative;
+    position:relative; we use relative bcos elements are static by default.relative allows us to specify position wrt normal position
     top:200px;*/
 /*}*/
 
