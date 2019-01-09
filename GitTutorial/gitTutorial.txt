@@ -8,7 +8,7 @@ git push                 push to remote repository
 git pull                 pull latest changes
 git clone                clone repository into a new directory
 git commit               commit changes
-git remote				 lists remote directories
+git remote		 lists remote directories
 
 
 *Additional Commands
