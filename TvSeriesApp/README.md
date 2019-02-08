@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## App-Preview
+
+![TV Maze](Home-Page.png)
+![Serie](Serie.png)
 
 In the project directory, you can run:
 
